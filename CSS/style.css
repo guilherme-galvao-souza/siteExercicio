@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:"Poppins",Arial, Helvetica, sans-serif;
+    background-color: #f6f9ff;
+    color: #434343;
+    line-height: 1.6;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    width:100%;
+    height: 100%;
+   
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background:white;
+}
+.navbar ul{
+    display: flex;
+    list-style:none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.navbar ul li{
+    margin:0 1rem;
+    padding:1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+}
+
+
+.navbar ul li a:hover{
+    color:skyblue;
+}
+
+
+
+section h1{
+    font-size: 4rem;
+}
+
+section p{
+    font-size: 1.5rem;
+}
+
+  
+  
+  .cidadeRibeirao{
+      height: 100vh;
+      width: 100vw;
+
+  }
+.container-cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    height: 40%;
+}
+.card{
+    background:white;
+    width: 270px;
+    margin:10px;
+    border-radius: 15px;
+
+}
+.card-imagem{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+}
+.card-1{
+    background-image:url(https://www.livehere.com.br/blog/wp-content/uploads/2019/07/multidao-ribeirao-preto-sp-1.jpg);
+
+}
+.card-2{
+    background-image:url(https://media.revide.com.br/upload/noticias/2018/06/13/11/56/cidade-ribeirao-preto-888.jpeg)
+}
+.card-3{
+    background-image:url(https://media.revide.com.br/upload/noticias/2017/03/24/11/46/mar.jpeg)
+}
+.card h2{
+    padding: 10px;
+    font-size:16px;
+}
+.card p{
+    padding: 10px;
+    font-size:15px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin:20px 50px;
+
+}
+.card:hover{
+    background-color:rgb(62,62,62);
+    color:white;
+    cursor:pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+}
+.cidadeCuriosidades{
+    text-align: center;;
+}
+.footer{
+    padding: 40px;
+    background-color: rgba(0,0,0, 0.9);
+
+}
+.footer .social{
+    text-align: center;
+    padding-bottom:25px;
+    color:#4b4c4d;
+}
+.footer .social a{
+    font-size: 50px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display:inline-block;
+    text-align: center;
+    border: radius 50%;
+    margin:0 8px;
+    opacity:0.75;
+}
+.footer .social a:hover{
+    opacity:1;
+}
+ h1{
+    text-align: center;
+}
+ 
